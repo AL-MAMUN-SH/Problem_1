@@ -9,12 +9,12 @@ function tipcalculator(bill){
 
 var bills = [124,48,268]
 // console.log(bills)
-var tips ="Total_TIP\'S : " +   [tipcalculator(bills[0]),
+var tips =[tipcalculator(bills[0]),
             tipcalculator(bills[1]),
             tipcalculator(bills[2])]
 console.log(tips)
 
-var totalbill = "Total_BIL\'S : " +  [bills[0] + tips[0],
+var totalbill =[bills[0] + tips[0],
                 bills[1] + tips[1],
                 bills[2] + tips[2]]
 console.log(totalbill)
